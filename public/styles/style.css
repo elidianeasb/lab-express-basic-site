@@ -1,0 +1,113 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%
+  }
+
+body{
+    background-color: white;
+    color: black;        
+    margin: auto;
+    padding: 0;
+}
+
+
+.go-back{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+#gallery{
+    background-color: rgb(210, 172, 211);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.gallery-img{
+    width: 80%;       
+    display: block; 
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about{
+    background-color: rgb(210, 172, 211);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+.perfil-img {
+    width: 80%;
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#home{ 
+    padding-top: 80px;   
+    background-image: url(../images/BG02.jpg);
+    background-color: rgb(210, 172, 211);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;    
+    border-radius: 10px;
+    background-color: rgb(30, 140, 187);
+    padding: 10px 100px;
+    margin-bottom: 20px;
+}
+
+.gallery{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(30, 140, 187);
+    padding: 10px 100px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+  }
+
+h2 {
+    font-size: 100%;
+    color: white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 80%;
+  }
+
+
+
+
+
